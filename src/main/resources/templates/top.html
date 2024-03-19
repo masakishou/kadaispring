@@ -1,0 +1,58 @@
+<!-- registration.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アカウント登録</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 50%;
+            margin: 100px auto;
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>top画面です。</h2>
+
+        <button class="btn" onclick="registerAccount()">新規学生登録はこちら</button>
+    </div>
+
+    <script>
+        function registerAccount() {
+
+            // ここでアカウント登録処理を行う（仮の例として、アラートを表示）
+            // リダイレクト処理を行う
+            window.location.href = 'touroku/'; // ログインページにリダイレクト
+        }
+    </script>
+</body>
+</html>
